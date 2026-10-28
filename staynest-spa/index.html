@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StayNest — Find your next PG or Hostel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a href="#/" class="brand brand-link" id="brandLink">
+    <span class="brand-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#FCFBF7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>
+    </span>
+    <span class="brand-name">StayNest</span>
+  </a>
+  <button type="button" class="menu-btn" id="menuBtn" aria-label="Open filters">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+  </button>
+</div>
+
+<!-- Main app mount point — home grid and details view both render here -->
+<div id="app"></div>
+
+<!-- Filter drawer: slides in from the right, 25% of screen width -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer__head">
+    <h3>Filters</h3>
+    <button type="button" id="drawerClose" aria-label="Close filters">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  <div class="drawer__section">
+    <label>Gender</label>
+    <div class="pill-group" id="genderGroup">
+      <button type="button" class="pill active" data-value="any">Any</button>
+      <button type="button" class="pill" data-value="male">Male</button>
+      <button type="button" class="pill" data-value="female">Female</button>
+      <button type="button" class="pill" data-value="coed">Co-ed</button>
+    </div>
+  </div>
+
+  <div class="drawer__section">
+    <label>Max monthly rent — <span class="price-range-value" id="priceValue">₹20,000</span></label>
+    <input type="range" id="priceRange" min="4000" max="20000" step="500" value="20000">
+  </div>
+
+  <div class="drawer__section">
+    <label>Popular cities</label>
+    <div class="city-grid" id="cityGrid"></div>
+  </div>
+
+  <div class="drawer__section">
+    <label>Specific area</label>
+    <input type="text" id="areaInput" placeholder="e.g. Koramangala, Baner...">
+  </div>
+
+  <div class="drawer__section">
+    <label>Your contact details</label>
+    <input type="text" id="contactName" placeholder="Full name">
+    <input type="email" id="contactEmail" placeholder="Email address">
+    <input type="tel" id="contactPhone" placeholder="Phone number">
+  </div>
+
+  <div class="drawer__actions">
+    <button type="button" class="btn btn--solid" id="applyFilters">Apply Filters</button>
+    <button type="button" class="btn btn--ghost" id="resetFilters">Reset</button>
+  </div>
+</aside>
+
+<!-- Payment modal -->
+<div class="modal-overlay" id="paymentOverlay">
+  <div class="modal">
+    <button class="modal-close" id="paymentClose" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg>
+    </button>
+    <div id="paymentBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="icons.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

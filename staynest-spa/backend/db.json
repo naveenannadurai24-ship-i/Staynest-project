@@ -1,0 +1,416 @@
+{
+  "listings": [
+    {
+      "id": "the-banyan-nest",
+      "name": "The Banyan Nest",
+      "location": "Koramangala, Bengaluru",
+      "city": "Bengaluru",
+      "address": "4th Block, Koramangala, Bengaluru, Karnataka 560034",
+      "gender": "coed",
+      "roomType": "Double Sharing",
+      "rent": 9500,
+      "deposit": 15000,
+      "status": "available",
+      "rating": 4.6,
+      "reviews": 182,
+      "amenities": [
+        "wifi",
+        "ac",
+        "food",
+        "laundry",
+        "bath",
+        "parking"
+      ],
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=800&auto=format&fit=crop",
+      "description": "A quiet, tree-lined PG five minutes' walk from Koramangala's 5th Block cafes and tech offices.",
+      "roomOptions": [
+        {
+          "type": "Single",
+          "beds": 1,
+          "rent": 13500,
+          "deposit": 20000
+        },
+        {
+          "type": "Double Sharing",
+          "beds": 2,
+          "rent": 9700,
+          "deposit": 15600
+        },
+        {
+          "type": "Triple Sharing",
+          "beds": 3,
+          "rent": 7600,
+          "deposit": 12400
+        },
+        {
+          "type": "4 Sharing",
+          "beds": 4,
+          "rent": 6200,
+          "deposit": 10400
+        },
+        {
+          "type": "5 Sharing",
+          "beds": 5,
+          "rent": 5400,
+          "deposit": 9200
+        },
+        {
+          "type": "6 Sharing",
+          "beds": 6,
+          "rent": 4700,
+          "deposit": 8000
+        }
+      ],
+      "reviewsList": [
+        {
+          "name": "Ananya R.",
+          "rating": 5,
+          "date": "Jun 2026",
+          "comment": "Warden is responsive and the food is genuinely good."
+        }
+      ]
+    },
+    {
+      "id": "sundar-pg-women",
+      "name": "Sundar PG for Women",
+      "location": "Baner, Pune",
+      "city": "Pune",
+      "address": "Baner Road, Pune, Maharashtra 411045",
+      "gender": "female",
+      "roomType": "Single",
+      "rent": 12000,
+      "deposit": 20000,
+      "status": "filling",
+      "rating": 4.8,
+      "reviews": 95,
+      "amenities": [
+        "wifi",
+        "food",
+        "laundry",
+        "bath"
+      ],
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=800&auto=format&fit=crop",
+      "description": "A women-only PG with a live-in warden and biometric entry.",
+      "roomOptions": [
+        {
+          "type": "Single",
+          "beds": 1,
+          "rent": 12000,
+          "deposit": 20000
+        },
+        {
+          "type": "Double Sharing",
+          "beds": 2,
+          "rent": 8600,
+          "deposit": 15600
+        },
+        {
+          "type": "Triple Sharing",
+          "beds": 3,
+          "rent": 6700,
+          "deposit": 12400
+        },
+        {
+          "type": "4 Sharing",
+          "beds": 4,
+          "rent": 5500,
+          "deposit": 10400
+        },
+        {
+          "type": "5 Sharing",
+          "beds": 5,
+          "rent": 4800,
+          "deposit": 9200
+        },
+        {
+          "type": "6 Sharing",
+          "beds": 6,
+          "rent": 4200,
+          "deposit": 8000
+        }
+      ],
+      "reviewsList": [
+        {
+          "name": "Priya M.",
+          "rating": 5,
+          "date": "Jul 2026",
+          "comment": "Feels safe and the warden actually checks in on everyone."
+        }
+      ]
+    },
+    {
+      "id": "urban-roots-hostel",
+      "name": "Urban Roots Hostel",
+      "location": "Gachibowli, Hyderabad",
+      "city": "Hyderabad",
+      "address": "Nanakramguda Road, Gachibowli, Hyderabad, Telangana 500032",
+      "gender": "male",
+      "roomType": "Triple Sharing",
+      "rent": 6800,
+      "deposit": 10000,
+      "status": "available",
+      "rating": 4.3,
+      "reviews": 211,
+      "amenities": [
+        "wifi",
+        "ac",
+        "food",
+        "parking"
+      ],
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop",
+      "description": "Budget-friendly shared rooms aimed at freshers and interns.",
+      "roomOptions": [
+        {
+          "type": "Single",
+          "beds": 1,
+          "rent": 9500,
+          "deposit": 14000
+        },
+        {
+          "type": "Double Sharing",
+          "beds": 2,
+          "rent": 6800,
+          "deposit": 10900
+        },
+        {
+          "type": "Triple Sharing",
+          "beds": 3,
+          "rent": 5300,
+          "deposit": 8700
+        },
+        {
+          "type": "4 Sharing",
+          "beds": 4,
+          "rent": 4400,
+          "deposit": 7300
+        },
+        {
+          "type": "5 Sharing",
+          "beds": 5,
+          "rent": 3800,
+          "deposit": 6400
+        },
+        {
+          "type": "6 Sharing",
+          "beds": 6,
+          "rent": 3300,
+          "deposit": 5600
+        }
+      ],
+      "reviewsList": [
+        {
+          "name": "Rohit V.",
+          "rating": 4,
+          "date": "Aug 2026",
+          "comment": "Good value for the price."
+        }
+      ]
+    },
+    {
+      "id": "casa-verde-living",
+      "name": "Casa Verde Living",
+      "location": "Velachery, Chennai",
+      "city": "Chennai",
+      "address": "100 Feet Road, Velachery, Chennai, Tamil Nadu 600042",
+      "gender": "coed",
+      "roomType": "Double Sharing",
+      "rent": 8200,
+      "deposit": 12000,
+      "status": "full",
+      "rating": 4.5,
+      "reviews": 140,
+      "amenities": [
+        "wifi",
+        "ac",
+        "laundry",
+        "bath"
+      ],
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800&auto=format&fit=crop",
+      "description": "A compact, well-kept PG close to Velachery's shopping and transit hub.",
+      "roomOptions": [
+        {
+          "type": "Single",
+          "beds": 1,
+          "rent": 11000,
+          "deposit": 16000
+        },
+        {
+          "type": "Double Sharing",
+          "beds": 2,
+          "rent": 7900,
+          "deposit": 12500
+        },
+        {
+          "type": "Triple Sharing",
+          "beds": 3,
+          "rent": 6200,
+          "deposit": 9900
+        },
+        {
+          "type": "4 Sharing",
+          "beds": 4,
+          "rent": 5100,
+          "deposit": 8300
+        },
+        {
+          "type": "5 Sharing",
+          "beds": 5,
+          "rent": 4400,
+          "deposit": 7400
+        },
+        {
+          "type": "6 Sharing",
+          "beds": 6,
+          "rent": 3800,
+          "deposit": 6400
+        }
+      ],
+      "reviewsList": [
+        {
+          "name": "Arjun T.",
+          "rating": 5,
+          "date": "Feb 2026",
+          "comment": "Great location, wish I'd booked earlier."
+        }
+      ]
+    },
+    {
+      "id": "the-nook-coliving",
+      "name": "The Nook Coliving",
+      "location": "Sector 48, Gurugram",
+      "city": "Gurugram",
+      "address": "Sohna Road, Sector 48, Gurugram, Haryana 122018",
+      "gender": "coed",
+      "roomType": "Single",
+      "rent": 14500,
+      "deposit": 25000,
+      "status": "available",
+      "rating": 4.7,
+      "reviews": 76,
+      "amenities": [
+        "wifi",
+        "ac",
+        "food",
+        "laundry",
+        "bath",
+        "parking"
+      ],
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=800&auto=format&fit=crop",
+      "description": "A premium coliving space for young professionals.",
+      "roomOptions": [
+        {
+          "type": "Single",
+          "beds": 1,
+          "rent": 14500,
+          "deposit": 25000
+        },
+        {
+          "type": "Double Sharing",
+          "beds": 2,
+          "rent": 10400,
+          "deposit": 19500
+        },
+        {
+          "type": "Triple Sharing",
+          "beds": 3,
+          "rent": 8100,
+          "deposit": 15500
+        },
+        {
+          "type": "4 Sharing",
+          "beds": 4,
+          "rent": 6700,
+          "deposit": 13000
+        },
+        {
+          "type": "5 Sharing",
+          "beds": 5,
+          "rent": 5800,
+          "deposit": 11500
+        },
+        {
+          "type": "6 Sharing",
+          "beds": 6,
+          "rent": 5100,
+          "deposit": 10000
+        }
+      ],
+      "reviewsList": [
+        {
+          "name": "Naveen J.",
+          "rating": 5,
+          "date": "Jul 2026",
+          "comment": "Feels more like a boutique hotel than a PG."
+        }
+      ]
+    },
+    {
+      "id": "riverside-stay-pg",
+      "name": "Riverside Stay PG",
+      "location": "Kothrud, Pune",
+      "city": "Pune",
+      "address": "Paud Road, Kothrud, Pune, Maharashtra 411038",
+      "gender": "male",
+      "roomType": "Triple Sharing",
+      "rent": 6200,
+      "deposit": 9000,
+      "status": "filling",
+      "rating": 4.2,
+      "reviews": 98,
+      "amenities": [
+        "wifi",
+        "food",
+        "bath"
+      ],
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800&auto=format&fit=crop",
+      "description": "An easygoing, budget PG a short walk from the riverbank promenade.",
+      "roomOptions": [
+        {
+          "type": "Single",
+          "beds": 1,
+          "rent": 8500,
+          "deposit": 12000
+        },
+        {
+          "type": "Double Sharing",
+          "beds": 2,
+          "rent": 6100,
+          "deposit": 9400
+        },
+        {
+          "type": "Triple Sharing",
+          "beds": 3,
+          "rent": 4800,
+          "deposit": 7400
+        },
+        {
+          "type": "4 Sharing",
+          "beds": 4,
+          "rent": 3900,
+          "deposit": 6200
+        },
+        {
+          "type": "5 Sharing",
+          "beds": 5,
+          "rent": 3400,
+          "deposit": 5500
+        },
+        {
+          "type": "6 Sharing",
+          "beds": 6,
+          "rent": 3000,
+          "deposit": 4800
+        }
+      ],
+      "reviewsList": [
+        {
+          "name": "Om D.",
+          "rating": 4,
+          "date": "May 2026",
+          "comment": "Simple, no-frills PG. Good for the price."
+        }
+      ]
+    }
+  ],
+  "bookings": []
+}
